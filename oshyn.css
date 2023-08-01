@@ -1,0 +1,397 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    justify-content:space-between;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 4px rgb(255, 255, 255);
+}
+
+.logo{
+    font-family: 'Rubik', sans-serif;
+    color: rgb(255, 251, 0);
+    font-size: 2.5em;
+    text-decoration: none;
+        }
+
+    .horizontal{
+        width:20% ;
+        height: 4px;
+        display: flex;
+        align-items: center;
+       margin: 15px auto;
+       background-color: dodgerblue;
+        color: rgba(255, 255, 255, 0);
+}
+
+.aleks{
+    text-align: center;
+}
+
+.teacher{
+margin: 0px 30px 0px 30px;
+border-radius: 10px;
+justify-content: center;
+}
+
+.navigation li{
+    list-style: none;
+    display: inline-block;
+
+}
+.navigation li a{
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+
+.navigation li a:hover{
+        color: rgb(255, 0, 0);
+        text-decoration: underline;
+}
+.ask{
+    display: flex;
+    background-color: rgb(255, 68, 0);
+    height: 57px;
+    align-items: center; 
+    justify-content: right;
+   
+}
+
+.ask a{
+    padding: 7px;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+   
+}
+
+hr{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.section-width{
+    width:90%;
+    margin: 0 auto;
+    align-items: center;
+}
+.cms{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 12px;
+    color: rgb(029, 02, 125);
+    font-size: 50px;
+    text-align: center;
+}
+.container{
+    width: 80%;
+    margin-top: 75px;
+    margin-left: 10%;
+}
+
+.container img{
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+.mrjoe p, h3, ol, li{
+    margin: 20px;
+}
+
+h3{
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+.points li{
+    padding: 0 30px 0 30px;
+}
+.related{
+    color: rgb(029, 02, 125);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    padding: 1em;
+}
+.choosing{
+    background-image: url("freddy-castro-u3ajSXhZM_U-unsplash.jpg");
+    border: 2px solid gray;
+    width: 45%;
+    height: 270px;
+    margin: 0 auto;
+    }
+.bgshake :nth-child(1){
+display: inline-block;
+background-color: cornflowerblue;
+color: white;
+padding: 6px;
+margin: 15px 0 0 15px;
+}
+
+.bgshake :nth-child(1):hover{
+    box-shadow: 6px 8px 5px rgb(131, 129, 129);
+}
+.bgshake :nth-child(2){
+    background-color: white;
+    color: darkblue;
+    width: 60px;
+    padding: 6px;
+    margin: 15px 0 50px 15px;
+    }
+    .bgshake :nth-child(2):hover{
+        box-shadow: 6px 8px 5px rgb(131, 129, 129);
+    }
+.choose{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 160px;
+}
+.choose{
+color: rgb(0, 0, 0);
+padding: 14px;
+text-decoration: none;
+background-color: rgb(255, 255, 255);
+width: 100%;
+}
+.choose a{
+    text-decoration: none;
+    color: cornflowerblue;
+    margin-bottom: 15px;
+}
+.modelling{
+    margin: 25px;
+      border-radius: 15px;
+      border: 4px solid rgb(168, 165, 255);
+      padding: 20px;
+      width: 450px;
+     }
+.modelling p{
+    color: black;
+}
+.bgshake .choose .oshylogo img{
+    border: none;
+    width: 45px;
+    display: inline-block;
+}
+.joe{
+padding: auto;
+margin-top: 10px;
+
+}
+.bgshake .choose .joe:hover{
+    box-shadow: none;
+}
+.corecms{
+    display: flex;
+    background-color: rgb(0, 134, 244);
+    margin-top: 75px;
+    }
+.corecms, a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+}
+.newsegment{
+justify-content: center;
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    height: 230px;
+    background-color: rgb(2, 50, 147);
+    padding: 3em;
+    }
+    .cms-tabs{
+        display: inline-block;
+        width: 140px;
+         justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .cms-tabs:hover{
+    background-color: rgba(13, 138, 228, 0.401);
+    padding: .3em;
+    border-radius: 10px;
+    cursor:pointer;
+    }
+.date{
+    display: inline-block;
+    margin-top: 20px;
+    justify-content: center;
+    background-color: rgb(0, 134, 244);
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    padding: .3em;
+}
+.feedback-form{
+    display: flex;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    width: 100%;
+    gap: 30px;
+    height: 280px;
+    background: linear-gradient(rgb(61, 127, 249), rgb(41, 96, 151), rgb(61, 127, 249));
+}
+.get-in-touch{
+display: flex;
+width: 70%;
+flex-direction: column;
+padding: .5em;
+border: 0px;
+border-style: none;
+}
+.get-in-touch input{
+    width: 100%;
+    height: 45px;
+    border-radius: .7em;
+    border: none;
+    margin: 1em;
+}
+.feedback-input{
+    width: 70%;
+    display: block;
+    flex-direction: column;
+    border-width: none;
+    padding: 1em;
+}
+input{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    /* border-radius: .3em; */
+    padding: 1em;
+}
+.blog{
+    color: white;
+}
+.newsection{
+    display: flex;
+    flex-direction:row;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(rgb(61, 127, 249), rgb(41, 96, 151), rgb(61, 127, 249));
+ }
+.my-forms{
+width: 60%;
+padding: 2em;
+
+}
+#more-options{
+    background-color: rgb(255, 255, 255);
+    color: rgb(222, 0, 85);
+    border: none;
+    border-radius: .7em;
+    margin: 10px 0;
+    padding: 2em;
+    align-items: center;
+    width: 100%;
+    height: 36px;
+}
+.submit-btn{
+    background-color: rgba(30, 143, 255, 0);
+    color: rgb(255, 255, 255);
+    border-radius: .7em;
+    border: .2em solid white;
+    margin: 10px 0;
+    width: 100%;
+    height: 4em;
+}
+.subscribe{
+    color: black;
+    font-size: 2em;
+    width: 50%;
+    margin-left: 2em;
+    text-transform: uppercase;
+}
+.subscribe>p{
+    text-transform:capitalize;
+    margin-left: 2em;
+    font-size: 15px;
+}
+.contact{
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    font-size: 2em;
+    text-align: center;
+}
+.contact~p{
+    text-align: center;
+    color: rgb(30, 143, 255);
+    font-size: 1.5em;
+   }
+.first-last{
+    display: inline-flex;
+    width: 100%;
+    gap: 10px;
+}
+.contact-details fieldset{
+    border: none;
+}
+.contact-details input{
+    height: 30px;
+    width: 50%;
+}
+.contact-details legend{
+    color: darkblue;
+    padding: 10px;
+    font-weight: 700;
+}
+.contact-details label{
+    color: darkblue;
+}
+#text-input{
+    background-color: rgb(251, 251, 251);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 1em;
+}
+.contact-details .btn-2{
+    background-color: rgba(30, 143, 255, 1);
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 30%;
+    height: 4em;
+    margin-bottom: 3em;
+}
+
+.receive-updates{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    font-size: larger;
+    padding: .6em;
+}
+.btn-2{
+    background-color: rgba(30, 143, 255, 1);
+    color: white;
+    width: 30%;
+    font-size: 16px;
+    margin: 15px auto;
+    text-align: center;
+    padding: .5em;
+    display: block;
+}
+
+.btn-2:hover{
+    background-color: rgb(0, 109, 218);
+    color:  darkblue;
+}
